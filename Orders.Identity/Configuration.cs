@@ -37,15 +37,15 @@ namespace Orders.Identity
                     RequirePkce = true,
                     RedirectUris =
                     {
-                        "http:// .../singin-oidc"
+                        "http://.../singin-oidc"
                     },
                     AllowedCorsOrigins =
                     {
-                        "http:// ..."
+                        "http://..."
                     },
                     PostLogoutRedirectUris =
                     {
-                        "http:// .../signout-oidc"
+                        "http://.../signout-oidc"
                     },
                     AllowedScopes =
                     {
